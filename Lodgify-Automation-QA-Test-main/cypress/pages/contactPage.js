@@ -17,12 +17,6 @@ class contactPage {
         this.elements.datePicker().click();
     }
 
-    /**
-     * @param callendarMonthArrival example: April 2022
-     * @param arrivalDate example: Thursday, April 14, 2022
-     * @param callendarMonthDeparture example: June 2022
-     * @param departureDate example: Tuesday, June 14, 2022
-     */
     selectDates(){
         this.elements.callendarMonthText().then((text) => {
             if (text === 'April 2022') {     
